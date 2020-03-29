@@ -32,6 +32,8 @@ h1{
     align-items: center;
 }
 /* Sektion 1*/
+
+
 .seksjon-en{
     height: 100vh;
 }
@@ -192,4 +194,10 @@ section  div{
 
 .red {
     margin-bottom: 200px;
+}
+
+/*Sektion 4*/
+
+.flourish-embed {
+  width: 100%;
 }
