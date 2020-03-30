@@ -1,12 +1,12 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: montserrat, arial, sans-serif;
+    font-family: 'Hind', arial, sans-serif;
     scroll-behavior: smooth;
     
 }
 h1{
-    font-family: montserrat, arial, sans-serif;
+   font-family: 'Hind', sans-serif;
     font-size: 80px;
 }
 .padding {
@@ -30,6 +30,7 @@ h1{
     font-size: 18px;
     color: #333333;
     align-items: center;
+    font-family: 'Hind', sans-serif;
 }
 /* Sektion 1*/
 
@@ -65,7 +66,7 @@ section  div{
 .header h1 {
     font-weight: 800;
     border-bottom: 2px solid;
-    border-color: red;
+    border-color: #8C0010;
     max-width: 550px;
     
 }
@@ -162,7 +163,7 @@ section  div{
     max-width: 200px;
 }
 .section-to {
-    background-color: red;
+    background-color: #B90301;
 }
 .section-to p{
     color: white;
@@ -174,20 +175,21 @@ section  div{
 /*Sektion 3*/
 .button{
     border-radius: 25px;
-    background: red;
+    background: #8C0010;
     border: none;
     color: white;
     width: 160px;
     height: 40px;
     font-variant-caps: all-petite-caps;
     bottom: 0;
+    
 
 }
 .under-overskrift {
     margin-top: 50px;
 }
 .bar img {
-    max-width: 400px;
+    max-width: 600px;
     
     
 }
@@ -201,3 +203,5 @@ section  div{
 .flourish-embed {
   width: 100%;
 }
+
+
