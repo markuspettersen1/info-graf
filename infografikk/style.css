@@ -8,9 +8,21 @@
 h1{
    font-family: 'Hind', sans-serif;
     font-size: 80px;
-    color: #400106;
+    color: #D90416;
     
 }
+h2{
+   color: #73020C;
+}
+
+h3{
+    color: #400106;
+}
+
+p{
+    color: #5374cb;
+}
+
 .padding {
     padding-bottom: 2rem;
     padding-left: 3rem;
@@ -68,7 +80,7 @@ section  div{
 .header h1 {
     font-weight: 800;
     border-bottom: 2px solid;
-    border-color: #8C0010;
+    border-color: #A6A8DF;
     max-width: 550px;
     
 }
@@ -165,7 +177,7 @@ section  div{
     max-width: 200px;
 }
 .section-to {
-    background-color: #B90301;
+    background-color: #73020C;
 }
 .section-to p{
     color: white; 
