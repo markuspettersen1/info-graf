@@ -11,16 +11,21 @@ h1{
     color: #D90416;
     
 }
-h2{
-   color: #73020C;
-}
 
 h3{
-    color: #400106;
+    color: #73020C;
 }
 
 p{
-    color: #5374cb;
+  color: #73020C;
+}
+
+.linje-graf {
+    color: #D90416;
+    border-bottom: 2px solid;
+    border-bottom-color: #A6A8DF;
+    max-width: 550px;
+    
 }
 
 .padding {
@@ -189,7 +194,7 @@ section  div{
 /*Sektion 3*/
 .button{
     border-radius: 25px;
-    background: #8C0010;
+    background: #5374CB;
     border: none;
     color: white;
     width: 160px;
