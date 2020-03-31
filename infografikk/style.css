@@ -8,6 +8,8 @@
 h1{
     font-family: montserrat, arial, sans-serif;
     font-size: 80px;
+    color: #400106;
+    
 }
 .padding {
     padding-bottom: 2rem;
@@ -165,7 +167,7 @@ section  div{
     background-color: red;
 }
 .section-to p{
-    color: white;
+    color: white; 
 }
 .section-to h4{
     color: white
