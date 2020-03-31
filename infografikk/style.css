@@ -28,6 +28,13 @@ p{
     border-bottom: 2px solid;
     border-bottom-color: #A6A8DF;
     max-width: 550px;
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 759px){
+    .linje-graf {
+        margin-top: 10%;
+    }
 }
 
 /*
@@ -192,6 +199,8 @@ section  div{
     max-width: 200px;
 }
 .section-to {
+    display: flex;
+    align-items: center;
     background-color: #73020C;
 }
 .section-to p{
@@ -202,6 +211,15 @@ section  div{
 }
 
 /*Sektion 3*/
+
+.section-3 {
+    display: flex;
+    background-color: #eeeeee;
+    height: 100vh;
+    margin-top: -6%;
+    align-items: center;
+}
+
 .button{
     border-radius: 25px;
     background: #5374CB;
@@ -218,7 +236,7 @@ section  div{
     margin-top: 50px;
 }
 .bar img {
-    max-width: 600px;
+   width: 100%;
     
     
 }
