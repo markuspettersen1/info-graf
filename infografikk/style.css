@@ -55,18 +55,27 @@ p{
 
 /*Navigasjon*/
 .navbar {
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
     z-index: 1;
-    height: 50px;
-    position: fixed;
+    height: 100px;
     background-color: #f3f3f3;
-    top: 0; 
+    bottom: 0; 
 }
 .navbar h4{
     font-size: 18px;
     color: #333333;
     align-items: center;
-    font-family: 'Hind', sans-serif;
+    font-family: "Noto Sans TC", sans-serif;
+}
+.navbar a{
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Noto Sans TC", sans-serif;
+    color: red;
+    margin-bottom: 5px;
 }
 
 /* Sektion 1*/
@@ -74,6 +83,7 @@ p{
 
 .seksjon-en{
     height: 100vh;
+    
 }
 .red-box{
     max-width: 60%;
@@ -197,59 +207,130 @@ section  div{
 /*Sektion 2*/
 
 .icon {
-    max-width: 200px;
+    height: 340px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.icon img {
+    height: 170px
+}
+
+.fire {
+    width: 100%;
 }
 .section-to {
     display: flex;
     align-items: center;
     background-color: #73020C;
+    text-align: center;
 }
 .section-to p{
     color: white; 
 }
 .section-to h4{
-    color: white
+    color: #f3f3f3f3;
+    font-weight: 300;
+    font-size: 22px;
+   
+    
 }
 
 /*Sektion 3*/
 
 .section-3 {
     display: flex;
-    background-color: #eeeeee;
-    height: 100vh;
-    margin-top: -6%;
+    background-color: #73020C;
     align-items: center;
 }
 
-.button{
-    border-radius: 25px;
-    background: #5374CB;
-    border: none;
-    color: white;
-    width: 160px;
-    height: 40px;
-    font-variant-caps: all-petite-caps;
-    bottom: 0;
-    
-
-}
-.under-overskrift {
-    margin-top: 50px;
-}
-.bar img {
-   width: 100%;
-    
-    
+.section-3 p{
+    color: #eeeeee;
+    hyphens: auto;
 }
 
-.red {
-    margin-bottom: 200px;
+.text-white {
+    font-size: 35px;
+    border-bottom: 2px solid;
+    max-width: 750px;
 }
+
 
 /*Sektion 4*/
+ 
+.section-fire {
+    display: flex;
+    align-items: center;
+}
 
+
+.farlig-en {
+  
+}
+
+.farlig-to {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: #eeeeee;
+}
+@media only screen and (max-width: 1000px){
+    .farlig-to {
+        border-left-color: white;
+        border-right-color: white;
+    }
+}
+
+.farlig-to h4{
+    font-size: 10px;
+}
+
+.farlig-tre {
+  
+}
+.section-fire p{
+    color: #333333;
+    text-align: left;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    hyphens: auto;
+}
+
+
+
+.section-fire img{
+    width: 60%;
+    min-width: 200px;
+}
+
+.section-fire h4 {
+    color: #333333;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    font-weight: bold;
+        
+}
+
+
+
+/* Flourish*/
 .flourish-embed {
   width: 100%;
+}
+
+.flourish-text {
+    font-size: 35px;
+    font-weight: 800;
+    border-bottom: 2px solid;
+    border-bottom-color: #A6A8DF;
+    
 }
 
 
