@@ -26,11 +26,19 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     
+      <div class="banner">
+                <video autoplay muted loop>
+                    <source src="img/partikler.mp4" type="video/mp4">
+                </video>
+            </div>
+    
     <div class="container-fluid seksjon-en">
         <div class="row header">
             <div class="text-center col-xs-12 col-sm-6 col-md-6">
               <img class="red-box" src="img/covid-19.png" alt="red box">
             </div>
+            
+          
             <div class="head-text col-xs-12 col-sm-6 col-md-6">
               <h1>Er du bange for at få Corona virus?</h1>
               <h3 class="lead">Følg med her på siden, og se hvem der er i risikogruppen </h3>
@@ -60,38 +68,38 @@
         <div class="container-fluid text-center padding" id="section 0">
             <div class="row text-center padding section-to ">
                 
-                <!--<div class="col-xs-12">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <h3>Pas på hvis du...</h3>
-                </div>-->
-
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 padding icon">
-                    <img class="padding" src="Img/icons8-mand-100.png" alt="coronasex">
-                    <h4>Flest mandlige smittede </h4>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 padding icon">
-                    <img class="padding" src="img/age%20copy.png" alt="coronaage">
-                    <h4>Alder mellem 40 og 49</h4>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 padding icon">
-                    <img class="padding" src="Img/icons8-by-100.png" alt="coronaplace">
-                    <h4>Region Hovedstaden</h4>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-4  col-lg-2 padding icon">
                     <img class="padding" src="Img/icons8-social-64.png" alt="coronacontact">
-                    <h4>Personer med meget kontakt til andre</h4>
+                    <h4>Har meget kontakt til andre mennesker</h4>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 padding icon">
+                    <img class="padding" src="img/age%20copy.png" alt="coronaage">
+                    <h4>Er mellem 40 og 49 år</h4>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 padding icon">
+                    <img class="padding" src="Img/icons8-by-100.png" alt="coronaplace">
+                    <h4>Bor i region Hovedstaden</h4>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 padding icon">
+                    <img class="padding" src="Img/icons8-mand-100.png" alt="coronasex">
+                    <h4>Er mand</h4>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 padding icon">
                     <img class="padding" src="Img/icons8-fedme-100.png" alt="coronaweight">
-                    <h4>Overvægtige med BMI over 35 </h4>
+                    <h4>Er overvægtig, med BMI over 35 </h4>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 padding icon">
                     <img class="padding" src="Img/icons8-sygdom-100.png" alt="coronasick">
-                    <h4>Personer med kroniske sygdom, der påvirker imunforsvaret og lungekapaciteten</h4>
+                    <h4>Har en kronisk sygdom, som påvirker dit imunforsvar eller lungekapacitet</h4>
                 </div>
                 
 
@@ -102,17 +110,20 @@
                 <!-- trying end-->  
      <!-- <h3 class="text-center flourish-text">Smittede i Danmark fra 17-27marts</h3>-->
     
-    <div class="container-fluid padding">
-       <div class="row">
+    <div class="container-fluid padding smittede">
+       <div class="row padding">
       
 
         <div class="flourish-embed flourish-map col-xs-12  col-sm-6 col-md-6 col-lg-6" data-src="visualisation/1719976"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
         <div class="col-s-12 col-sm-6 col-md-6 col-lg-6" col-s-12 >
-             <h3 class="flourish-text">Smittede i Danmark fra 17-27marts</h3>
-            <p>På kortet ses udviklingen af antal smittede pr. 1000 indbygger, fordelt på de 5 regioner. Det er tydeligt at se at der er flest smittede i Region Hovedstaden, hvor der til sammenligning i Region Nordjylland er næsten 3 gange færre smittede.<br>
-            Man kan med lidt god vilje sige, at der er 3 gange større risiko for at blive smittet med Corona virus hvis man bor i Region Hovedstaden, som i Region Nordjylland!
+             <h3 class="flourish-text">Smittede i Danmark i marts </h3>
+            <br>
+            <p >På kortet ses udviklingen af antal smittede, pr. 100.000 indbygger, fordelt på de 5 regioner. Det er tydeligt at se at der er flest smittede i Region Hovedstaden, hvor der til sammenligning i Region Nordjylland er mere end 3 gange færre smittede.</p>
+            <p>
+            Man kan med lidt god vilje sige, at der er mere end 3 gange større risiko for at blive smittet med Corona virus hvis man bor i Region Hovedstaden, end hvis man bor i Region Nordjylland!
             </p>
+              <img src="img/icons8-byred-100.png" alt="bygg">
         </div>
         </div>
     </div>
@@ -146,12 +157,29 @@
     
     <div class="container-fluid padding section0">
        <div class="row padding">
-        <div class="flourish-embed flourish-survey col-xs-12 col-sm-6 col-md-6 col-lg-6 padding" data-src="visualisation/1739126">    <script src="https://public.flourish.studio/resources/embed.js"></script>
-        </div>
+           
         <div class="col -xs-12 col-sm-6 col-md-6 col-lg-6 padding ">
            <h3 class="flourish-text" style="font-size: 35px;">Smittedes alder og køn</h3>
-            <p class="">Her ser vi en grafik over alder og køn på de smittede i Danmark. Vi kan se at der er flest smittede mænd, og at der for begge køn er en overvægt af smittede i alderen 40-49 år, stært forfulgt af 50-59 år.</p>
+            <br>
+            <p class="">Her ses en grafik over alder og køn på de smittede i Danmark pr. 31. marts. Vi kan se at der er flest smittede mænd, og at der for begge køn er en overvægt af smittede i alderen 40-49 år, stært forfulgt af 50-59 år.</p>
+            <p>Udfra denne kan det siges, at er du mand, og mellem 40 og 49 år, er du i største risikogruppe. 
+            </p>
+            
+            
+                    <img style="width: 70px" src="img/icons8-redmand-100.png" alt="coronasex">
+    
+                    <img src="img/age-red.png" alt="coronaage" style="width: 20%; min-width:90px; margin-left: 30px">
+                    
+             
+            
         </div>
+           
+        <div class="flourish-embed flourish-chart col-xs-12 col-sm-6 col-md-6 col-lg-6 padding" data-src="visualisation/1765966" data-url="https://flo.uri.sh/visualisation/1765966/embed"><script src="https://public.flourish.studio/resources/embed.js"></script>
+        </div>
+  <!--         
+        <div class="flourish-embed flourish-survey col-xs-12 col-sm-6 col-md-6 col-lg-6 padding" data-src="visualisation/1739126"><script src="https://public.flourish.studio/resources/embed.js"></script>
+ -->           
+        
         </div>
     </div>
     
@@ -178,22 +206,26 @@
                 <img class="padding card-img-top" src="img/farlig_2.png" alt="logo">  
                 <h4 class="card-title" style="font-size: 30px;">Komplicerede forløb</h4>
     
-                <p class="lead text-center">(Hovedsageligt ældre og kronisk syge)</p>
+                <p class="lead text-center">(Flest ældre og kronisk syge)</p>
                 <p class="card-title">På 4. - 7. dagen efter de første symptomer fra      øvre luftveje, begynder patienten at
                     klage over åndenød, og vejrtrækningen bliver hurtig og overfladisk. Samtidig forværres hoste, og feberen kan stige. De nedre luftveje inddrages, og der tilkommer lungebetændelse med behov for understøttende behandling i form af ilt- og væskebehandling, og evt. lungefysioterapi. Der vil typisk være behov for indlæggelse på et hospital, men patienten klarer sig igennem infektionen uden behov for indlæggelse på intensiv afsnit.</p>
             </div> 
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 padding farlig-tre">
                 <img class="padding card-img-top" src="img/farlig3%20copy.png" alt="logo">
                 <h4 class="card-title" style="font-size: 30px;">Svært komplicerede forløb</h4>
-                <p class="lead text-center">(Hovedsageligt ældre og kronisk syge)</p>
+                <p class="lead text-center">(Flest ældre og kronisk syge)</p>
                 <p class="card-title">Som ovenstående forløb, men typisk med yderligere forværring af lungebetændelse over de følgende 2 - 4 dage. Typisk vil patientens behov for supplerende iltbehandling øges, og mange vil opleve, at de udtrættes og derfor får behov for indlæggelse på intensivt afsnit, bl.a. til respiratorbehandling og evt. kredsløbsunderstøttende behandling, dialyse, hjerte/lungemaskine m.v. ved svigt af flere organsystemer. </p>
             </div>
         </div>
     </div>
     
     <div class="navbar justify-content-center" style="position: width: 100%;">
-        <h4>Markus l Louise l Pernille</h4>
-        <a href="#">Link til dokumentasjon</a>
+        <h4>
+        <a href="http://markuspettersen.dk/">Markus</a> l 
+        <a href="#">Louise</a> l 
+        <a href="http://pernillelind.dk/portfolio_sem1/pernille_portfolio_index.html">Pernille</a>
+        </h4>
+        <a href="#">Link til dokumentation</a>
     </div>
     
   </body>
