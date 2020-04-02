@@ -89,8 +89,12 @@ p{
     text-decoration: none;
     font-size: 18px;
     font-family: "Noto Sans TC", sans-serif;
-    color: red;
+    color: black;
     margin-bottom: 5px;
+}
+
+.navbar a:hover{
+    color: red;
 }
 
 /* Sektion 1*/
@@ -240,6 +244,8 @@ section  div{
 .icon img {
     height: 170px
 }
+
+
 
 .fire {
     width: 100%;
